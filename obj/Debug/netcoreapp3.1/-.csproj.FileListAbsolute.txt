@@ -1,0 +1,13 @@
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.csprojAssemblyReference.cache
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.AssemblyInfoInputs.cache
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.AssemblyInfo.cs
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.csproj.CoreCompileInputs.cache
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.exe
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.deps.json
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.runtimeconfig.json
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.runtimeconfig.dev.json
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.dll
+D:\Gitrepo\project\-\bin\Debug\netcoreapp3.1\-.pdb
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.dll
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.pdb
+D:\Gitrepo\project\-\obj\Debug\netcoreapp3.1\-.genruntimeconfig.cache
