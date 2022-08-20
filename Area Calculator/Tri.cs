@@ -60,13 +60,12 @@ namespace Area_Calculator
         {
             string base1 = textBox1.Text.Trim();
             string height1 = textBox2.Text.Trim();
-            int b = 1;
-            if (int.TryParse(base1, out b) && int.TryParse(height1, out b))
+            double b = 1;
+            if (double.TryParse(base1, out b) && double.TryParse(height1, out b))
             {
                 decimal m = Convert.ToDecimal(base1);
                 decimal n = Convert.ToDecimal(height1);
                 decimal Tran = (decimal)2.54;
-                decimal two = (decimal)0.5;
                 string company1 = comboBox1.Text;
                 string company2 = comboBox2.Text;
                 if (company1 == "英寸（in）")
@@ -77,7 +76,7 @@ namespace Area_Calculator
                 {
                     n = n * Tran;
                 }
-                decimal MeasureArea = m * n * two;
+                decimal MeasureArea = AreaMathForm.TriArea(m,n);
                 String str = MeasureArea.ToString("0.000");
                 string Measure = str + " ";
                 textBox3.Text = Measure;

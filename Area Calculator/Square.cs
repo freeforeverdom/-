@@ -68,11 +68,11 @@ namespace Area_Calculator
         private void button1_Click(object sender, EventArgs e)
         {
             string long1 = textBox1.Text.Trim();
-            int a = 1;
-            if (int.TryParse(long1, out a))
+            double a = 1;
+            if (double.TryParse(long1, out a))
             {
                 decimal m = Convert.ToDecimal(long1);
-                decimal MeasureArea = m * m;
+                decimal MeasureArea = AreaMathForm.SqureArea(m);
                 decimal Tran = (decimal)6.4516;
                 string company = comboBox1.Text;
                 if (company == "厘米（cm)")

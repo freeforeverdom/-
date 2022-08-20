@@ -78,8 +78,8 @@ namespace Area_Calculator
         {
             string long1 = textBox1.Text.Trim();
             string width1 = textBox2.Text.Trim();
-            int c = 1;
-            if (int.TryParse(long1, out c) && int.TryParse(width1, out c))
+            double c = 1;
+            if (double.TryParse(long1, out c) && double.TryParse(width1, out c))
             {
                 decimal m = Convert.ToDecimal(long1);
                 decimal n = Convert.ToDecimal(width1);
@@ -94,7 +94,7 @@ namespace Area_Calculator
                 {
                     n = n * Tran;
                 }
-                decimal MeasureArea = m * n;
+                decimal MeasureArea = AreaMathForm.RecArea(m,n);
                 String str = MeasureArea.ToString("0.000");
                 string Measure = str + " ";
                 textBox3.Text = Measure;

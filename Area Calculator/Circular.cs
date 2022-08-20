@@ -57,13 +57,12 @@ namespace Area_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string radius = textBox1.Text.Trim();
-            int d = 1;
-            if (int.TryParse(radius, out d))
+            string  diam= textBox1.Text.Trim();
+            double d = 1;
+            if (double.TryParse(diam, out d))
             {
-                decimal m = Convert.ToDecimal(radius);
-                decimal pi = (decimal)3.1415916;
-                decimal MeasureArea = m * m * pi;
+                decimal m = Convert.ToDecimal(diam);
+                decimal MeasureArea = AreaMathForm.RoundArea(m);
                 decimal Tran = (decimal)6.4516;
                 string company = comboBox1.Text;
                 if (company == "厘米（cm)")
